@@ -1,0 +1,27 @@
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.landing {
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+}
+
+.section {
+  $padding-sections: 50px;
+
+  padding: $padding-sections;
+  width: calc(100% - #{$padding-sections} * 2);
+  border-radius: 50px;
+}
