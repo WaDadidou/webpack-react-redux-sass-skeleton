@@ -1,9 +1,9 @@
-import {ACTION_XXXX} from "./actionTypes"
+import {ACTION_XXXX} from './actionTypes'
 
 export const actionXXXXX = params => {
-    return {
-        type: ACTION_XXXX,
-        payload: {params}
-    }
+	return {
+		type: ACTION_XXXX,
+		payload: {params}
+	}
 }
 

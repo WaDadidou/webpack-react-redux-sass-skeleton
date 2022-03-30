@@ -4,6 +4,8 @@
   "description": "A boilerplate",
   "main": "index.jsx",
   "scripts": {
+    "lint-fix": "eslint --fix ./**",
+    "lint": "eslint ./**",
     "build": "node --max-old-space-size=8192 --optimize-for-size --optimize_for_size node_modules/webpack/bin/webpack.js --progress --color",
     "dev": "node --max-old-space-size=8192 --optimize-for-size --optimize_for_size node_modules/webpack-dev-server/bin/webpack-dev-server.js --progress --color"
   },
@@ -24,6 +26,7 @@
     "file-loader": "^6.2.0",
     "html-loader": "^3.1.0",
     "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
     "sass-loader": "^12.6.0",
     "speed-measure-webpack-plugin": "^1.5.0",
     "style-loader": "^3.3.1",

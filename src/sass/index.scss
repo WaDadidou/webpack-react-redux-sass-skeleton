@@ -1,20 +1,20 @@
-//@import 'vendors/...';
+:global {
 
-@import 'utils/variables';
-@import 'utils/font-faces';
-@import 'utils/functions';
-@import 'utils/keyframes';
-@import 'utils/mixins';
-@import 'utils/media-queries';
+  //@import 'vendors/...';
 
-@import 'base/reset';
-@import 'base/main';
-@import 'base/dispositions';
-@import 'base/colors';
-@import 'base/animations';
+  @import 'utils/variables';
+  @import 'utils/font-faces';
+  @import 'utils/functions';
+  @import 'utils/keyframes';
+  @import 'utils/mixins';
+  @import 'utils/media-queries';
 
-@import '../_layouts/Main/Main';
-@import '../_components/Hello/Hello';
+  @import 'base/reset';
+  @import 'base/main';
+  @import 'base/dispositions';
+  @import 'base/colors';
+  @import 'base/animations';
 
-//@import 'themes/...';
+  //@import 'themes/...';
 
+}

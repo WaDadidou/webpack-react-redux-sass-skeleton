@@ -1,5 +1,7 @@
 module.exports = {
 	'env': {
+		'node': true,
+		'es6': true,
 		'browser': true,
 		'es2021': true
 	},
@@ -24,19 +26,19 @@ module.exports = {
 	},
 	'rules': {
 		'indent': [
-			'error',
+			'warn',
 			'tab'
 		],
 		'linebreak-style': [
-			'error',
+			'warn',
 			'unix'
 		],
 		'quotes': [
-			'error',
+			'warn',
 			'single'
 		],
 		'semi': [
-			'error',
+			'warn',
 			'never'
 		]
 	}
