@@ -25,10 +25,6 @@ module.exports = {
 		}
 	},
 	'rules': {
-		'indent': [
-			'warn',
-			'tab'
-		],
 		'quotes': [
 			'warn',
 			'single'
